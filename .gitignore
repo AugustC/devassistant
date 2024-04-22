@@ -1,0 +1,6 @@
+.env
+*.json
+database
+data
+__pycache__
+.ipyinbcheck

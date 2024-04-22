@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "challenge"
+version = "0.1.0"
+description = ""
+authors = ["AugustC <augusto.cms7@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ollama = "^0.1.8"
+chromadb = "^0.4.24"
+llama-index = "^0.10.30"
+llama-index-vector-stores-chroma = "^0.1.6"
+llama-index-embeddings-huggingface = "^0.2.0"
+llama-index-llms-ollama = "^0.1.2"
+slack-bolt = "^1.18.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
