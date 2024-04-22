@@ -2,7 +2,6 @@ DevAssistant
 =====================================
 
 ## About:
-------------
 
 DevAssistant is an LLM-powered chatbot designed to answer documentation 
 related questions by retrieving the corresponding documents. It is 
@@ -26,7 +25,6 @@ An image of the system architecture follows:
 ![DevAssistant Architecture](images/devassistant_architecture.png)
 
 ## Requirements:
-----------------
 
 - poetry
 - llama-index
@@ -35,7 +33,6 @@ An image of the system architecture follows:
 - slack-bolt (for Slack integration)
 
 ## Frameworks:
------------------
 
 The following frameworks were used in this prototype:
 - [LlamaIndex](https://www.llamaindex.ai/)
@@ -44,7 +41,6 @@ The following frameworks were used in this prototype:
 - [Slack](https://slack.com/)
 
 ## Setup
------------------
 
 First, set the environment variables to choose the LLM, embedding model,
 documentation path and database path. If using Slack integration or GPT-3
@@ -88,7 +84,6 @@ poetry run python server.py
 ```
 
 ## Usage
--------------------
 
 With the server running, we can ask questions to DevAssistant through
 direct messages:
@@ -96,7 +91,6 @@ direct messages:
 ![Example of slack conversation with DevAssistant](images/slack_example.png)
 
 ## Evaluation
--------------------
 
 A jupyter notebook with a mockup of how to evaluate the LLM and embedding models 
 can be seen in ``evaluations/models_evaluation.ipynb``. It serves as a guide to further
@@ -108,7 +102,6 @@ such as relevancy and faithfulness for the response evaluation, and mean recipro
 (MRR) and Hit Rate for the retriever evaluation.
 
 ## Future Improvements
--------------------------
 
 - Evaluating embedding and large language models
 - Evaluating hyperparameters (e. g. chunk size)
